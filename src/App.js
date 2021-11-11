@@ -1,7 +1,8 @@
 import './App.css';
 import Home from "./Home"
 import Header from "./Header.js"
-
+import "@material-ui/icons"
+import "@material-ui/core"
 
 function App() {
   return (
