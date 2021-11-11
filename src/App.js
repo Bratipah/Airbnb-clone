@@ -1,4 +1,6 @@
 import './App.css';
+import Home from "./Home"
+
 
 function App() {
   return (
@@ -8,6 +10,9 @@ function App() {
       <h1>Lets build Airbnb clone</h1>
 
       {/* Home */}
+      <Header />
+      <Home />
+
 
       {/* Header */}
 
