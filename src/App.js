@@ -7,11 +7,20 @@ function App() {
     <div className="app">
       <h1>Lets build Airbnb clone</h1>
 
+      {/* Home */}
+
       {/* Header */}
 
       {/* Banner */}
+        {/* Search */}
 
-      
+      {/* Cards */}
+
+      {/* Footer */}
+
+      {/* SearchPage */}
+
+
     </div>
   );
 }
