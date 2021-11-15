@@ -1,6 +1,9 @@
 import React from 'react'
 import "./Header.css"
 import SearchIcon from "@material-ui/icons/Search";
+import LangugaeIcon from "@material-ui/icons/Language";
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import { Avatar } from "@material-ui/core"
 
 function Header() {
     return (
@@ -11,9 +14,16 @@ function Header() {
                 alt =""
 
             />
-            <div className = 'header__center'>
+            <div className = "header__center">
                 <input type = 'text' />
                 <SearchIcon /> 
+            </div>
+
+            <div className = "header__right">
+                <p>Become a host member</p>
+                <ExpandMoreIcon />
+                <LangugaeIcon />
+                <Avatar />
             </div>
         </div>
     )
