@@ -7,11 +7,11 @@ function Banner() {
     const [showSearch, setShowSearch] = useState(false);
     return (
         <div className = 'banner'>
-            <div classname = "banner__search">
+            <div classname = 'banner__search'>
                 {showSearch && <Search />}
                 <Button onClick = {() => setShowSearch(!showSearch)}
                 className = "banner__searchButton"
-                variant = "outlined"> Search Dates
+                variant = "outlined"> {showSearch ? "Hide" : "Search Dates"}
                 </Button>
             </div>
             <div className = "banner__info">
